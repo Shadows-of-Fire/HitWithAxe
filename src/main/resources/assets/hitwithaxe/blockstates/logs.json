@@ -1,0 +1,146 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube_column"
+	},
+	"variants": {
+		"type": {
+			"acacia": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/acacia",
+					"end": "hitwithaxe:blocks/debarked/acacia_top"
+				}
+			},
+			"birch": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/birch",
+					"end": "hitwithaxe:blocks/debarked/birch_top"
+				}
+			},
+			"dark_oak": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/dark_oak",
+					"end": "hitwithaxe:blocks/debarked/dark_oak_top"
+				}
+			},
+			"jungle": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/jungle",
+					"end": "hitwithaxe:blocks/debarked/jungle_top"
+				}
+			},
+			"oak": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/oak",
+					"end": "hitwithaxe:blocks/debarked/oak_top"
+				}
+			},
+			"spruce": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/spruce",
+					"end": "hitwithaxe:blocks/debarked/spruce_top"
+				}
+			},
+			"ash": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/ash",
+					"end": "hitwithaxe:blocks/debarked/ash_top"
+				}
+			},
+			"blaze": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/blaze",
+					"end": "hitwithaxe:blocks/debarked/blaze_top"
+				}
+			},
+			"black_kauri": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/black_kauri",
+					"end": "hitwithaxe:blocks/debarked/black_kauri_top"
+				}
+			},
+			"brazillian_pine": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/brazillian_pine",
+					"end": "hitwithaxe:blocks/debarked/brazillian_pine_top"
+				}
+			},
+			"crystal": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/crystal",
+					"end": "hitwithaxe:blocks/debarked/crystal_top"
+				}
+			},
+			"dark_crystal": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/dark_crystal",
+					"end": "hitwithaxe:blocks/debarked/dark_crystal_top"
+				}
+			},
+			"fir": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/fir",
+					"end": "hitwithaxe:blocks/debarked/fir_top"
+				}
+			},
+			"incense_cedar": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/incense_cedar",
+					"end": "hitwithaxe:blocks/debarked/incense_cedar_top"
+				}
+			},
+			"greatwood": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/greatwood",
+					"end": "hitwithaxe:blocks/debarked/greatwood_top"
+				}
+			},
+			"silverwood": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/silverwood",
+					"end": "hitwithaxe:blocks/debarked/silverwood_top"
+				}
+			},
+			"weedwood": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/weedwood",
+					"end": "hitwithaxe:blocks/debarked/weedwood_top"
+				}
+			},
+			"menril": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/menril",
+					"end": "hitwithaxe:blocks/debarked/menril_top"
+				}
+			},
+			"murray_pine": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/murray_pine",
+					"end": "hitwithaxe:blocks/debarked/murray_pine_top"
+				}
+			},
+			"root": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/root",
+					"end": "hitwithaxe:blocks/debarked/root"
+				}
+			},
+			"spectre": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/spectre",
+					"end": "hitwithaxe:blocks/debarked/spectre_top"
+				}
+			}
+		},
+		"axis": {
+			"y": {},
+			"x": {
+				"x": 90,
+				"y": 90
+			},
+			"z": {
+				"x": 90
+			}
+		}
+	}
+}

@@ -1,0 +1,121 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "builtin/generated",
+		"transform": "forge:default-item"
+	},
+	"variants": {
+		"item": {
+			"acacia": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/acacia"
+				}
+			},
+			"ash": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/ash"
+				}
+			},
+			"birch": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/birch"
+				}
+			},
+			"black_kauri": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/black_kauri"
+				}
+			},
+			"blaze": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/blaze"
+				}
+			},
+			"brazillian_pine": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/brazillian_pine"
+				}
+			},
+			"crystal": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/crystal"
+				}
+			},
+			"dark_crystal": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/dark_crystal"
+				}
+			},
+			"dark_oak": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/dark_oak"
+				}
+			},
+			"fir": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/fir"
+				}
+			},
+			"greatwood": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/greatwood"
+				}
+			},
+			"incense_cedar": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/incense_cedar"
+				}
+			},
+			"jungle": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/jungle"
+				}
+			},
+			"menril": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/menril"
+				}
+			},
+			"murray_pine": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/murray_pine"
+				}
+			},
+			"oak": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/oak"
+				}
+			},
+			"root": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/root"
+				}
+			},
+			"rubber": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/rubber"
+				}
+			},
+			"silverwood": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/silverwood"
+				}
+			},
+			"spectre": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/spectre"
+				}
+			},
+			"spruce": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/spruce"
+				}
+			},
+			"weedwood": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/weedwood"
+				}
+			}
+		}
+	}
+}

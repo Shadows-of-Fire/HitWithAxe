@@ -1,0 +1,102 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "hitwithaxe:log_rubber_center"
+  },
+  "variants": {
+    "north": {
+      "true": {
+        "submodel": "hitwithaxe:log_rubber_connection",
+        "x": 90,
+        "uvlock": "false"
+      },
+      "false": { }
+    },
+    "east": {
+      "true": {
+        "submodel": "hitwithaxe:log_rubber_connection",
+        "x": 90,
+        "y": 90,
+        "uvlock": "false"
+      },
+      "false": { }
+    },
+    "south": {
+      "true": {
+        "submodel": "hitwithaxe:log_rubber_connection",
+        "x": 90,
+        "y": 180,
+        "uvlock": "false"
+      },
+      "false": { }
+    },
+    "west": {
+      "true": {
+        "submodel": "hitwithaxe:log_rubber_connection",
+        "x": 90,
+        "y": 270,
+        "uvlock": "false"
+      },
+      "false": { }
+    },
+    "up": {
+      "true": {
+        "submodel": "hitwithaxe:log_rubber_connection",
+        "uvlock": "false"
+      },
+      "false": { }
+    },
+    "down": {
+      "true": {
+        "submodel": "hitwithaxe:log_rubber_connection",
+        "x": 180,
+        "uvlock": "false"
+      },
+      "false": { }
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=false": {
+      "model": "hitwithaxe:log_rubber_center",
+      "textures": {
+        "west": "hitwithaxe:blocks/debarked/rubber_top"
+      }
+    },
+    "down=false,east=false,north=false,south=false,up=false,west=true": {
+      "model": "hitwithaxe:log_rubber_center",
+      "textures": {
+        "east": "hitwithaxe:blocks/debarked/rubber_top"
+      }
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=false": {
+      "model": "hitwithaxe:log_rubber_center",
+      "textures": {
+        "south": "hitwithaxe:blocks/debarked/rubber_top"
+      }
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=false": {
+      "model": "hitwithaxe:log_rubber_center",
+      "textures": {
+        "north": "hitwithaxe:blocks/debarked/rubber_top"
+      }
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=false": {
+      "model": "hitwithaxe:log_rubber_center",
+      "textures": {
+        "up": "hitwithaxe:blocks/debarked/rubber_top"
+      }
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=false": {
+      "model": "hitwithaxe:log_rubber_center",
+      "textures": {
+        "down": "hitwithaxe:blocks/debarked/rubber_top"
+      }
+    },
+    "inventory": { 
+      "model": "hitwithaxe:log_rubber_center",
+      "textures": {
+        "up": "hitwithaxe:blocks/debarked/rubber_top",
+        "down": "hitwithaxe:blocks/debarked/rubber_top"
+      },
+      "transform": "forge:default-block"
+    }
+  }
+}

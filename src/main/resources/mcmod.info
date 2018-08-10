@@ -1,0 +1,16 @@
+[
+{
+  "modid": "hitwithaxe",
+  "name": "Hit With Axe",
+  "description": "chop af",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Shadows_of_Fire"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

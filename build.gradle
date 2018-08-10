@@ -1,0 +1,63 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url = "http://files.minecraftforge.net/maven" }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+    }
+}
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+
+version = "1.12.2-1.0.0"
+group= "shadows.hitwithaxe"
+archivesBaseName = "Hit With Axe"
+
+sourceCompatibility = targetCompatibility = "1.8"
+compileJava {
+    sourceCompatibility = targetCompatibility = "1.8"
+}
+
+minecraft {
+    version = "1.12.2-14.23.4.2739"
+    runDir = "run"
+    mappings = "snapshot_20180720"
+	makeObfSourceJar = false
+}
+
+repositories {
+	maven {
+		url "http://dvs1.progwml6.com/files/maven"
+	}
+	maven {
+		url "http://tehnut.info/maven"
+	}
+	maven {
+		url 'http://maven.blamejared.com'
+	}
+	maven {
+        url 'http://maven.tterrag.com/'
+    }
+}
+
+dependencies {
+    deobfCompile "CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.+"
+    deobfCompile "mezz.jei:jei_1.12.2:+"
+	deobfCompile "mcp.mobius.waila:Hwyla:+"
+	deobfCompile "slimeknights:TConstruct:1.12.2-+"
+	deobfCompile "slimeknights.mantle:Mantle:1.12-+"
+}
+
+processResources
+{
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+    }
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "ambientocclusion": true,
+    "textures": {
+        "particle": "hitwithaxe:blocks/debarked/rubber",
+        "north": "hitwithaxe:blocks/debarked/rubber_top",
+        "south": "hitwithaxe:blocks/debarked/rubber",
+        "east": "hitwithaxe:blocks/debarked/rubber",
+        "west": "hitwithaxe:blocks/debarked/rubber",
+        "up": "hitwithaxe:blocks/debarked/rubber",
+        "down": "hitwithaxe:blocks/debarked/rubber"
+    },
+    "elements": [
+        {   
+            "from": [ 4, 4, 4 ],
+            "to": [ 12, 12, 12 ],
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 4, 4, 12, 12 ], "texture": "#north" },
+                "south": { "uv": [ 4, 4, 12, 12 ], "texture": "#south" },
+                "east": { "uv": [ 4, 4, 12, 12 ], "texture": "#east" },
+                "west": { "uv": [ 4, 4, 12, 12 ], "texture": "#west" },
+                "up": { "uv": [ 4, 4, 12, 12 ], "texture": "#up" },
+                "down": { "uv": [ 4, 4, 12, 12 ], "texture": "#down" }
+            }
+        }
+    ]
+}
