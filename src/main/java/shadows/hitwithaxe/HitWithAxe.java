@@ -35,7 +35,7 @@ import shadows.hitwithaxe.proxy.Proxy;
 import shadows.placebo.registry.RegistryInformationV2;
 import shadows.placebo.util.EnumBlockFactory;
 
-@Mod(modid = HitWithAxe.MODID, name = HitWithAxe.MODNAME, version = HitWithAxe.VERSION, dependencies = "required-after:placebo@[1.4.1,);after:thebetweenlands;after:plants2;after:thaumcraft;after:randomthings;after:traverse;after:integrateddynamics")
+@Mod(modid = HitWithAxe.MODID, name = HitWithAxe.MODNAME, version = HitWithAxe.VERSION, dependencies = "required-after:placebo@[1.4.1,);required-after:crafttweaker;after:thebetweenlands;after:plants2;after:thaumcraft;after:randomthings;after:traverse;after:integrateddynamics")
 public class HitWithAxe {
 
 	public static final String MODID = "hitwithaxe";
