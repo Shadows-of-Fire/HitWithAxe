@@ -30,7 +30,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.oredict.OreDictionary;
 import shadows.hitwithaxe.block.BlockDebarkedLog;
 import shadows.hitwithaxe.compat.CompatBetweenlands;
-import shadows.hitwithaxe.compat.ItemBark;
 import shadows.hitwithaxe.proxy.Proxy;
 import shadows.placebo.registry.RegistryInformationV2;
 import shadows.placebo.util.EnumBlockFactory;

@@ -1,10 +1,9 @@
-package shadows.hitwithaxe.compat;
+package shadows.hitwithaxe;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
 import net.minecraftforge.fml.common.Loader;
-import shadows.hitwithaxe.EnumBarkType;
 import shadows.placebo.item.ItemBigEnum;
 import shadows.placebo.registry.RegistryInformation;
 
