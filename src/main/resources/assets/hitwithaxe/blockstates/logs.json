@@ -130,6 +130,66 @@
 					"side": "hitwithaxe:blocks/debarked/spectre",
 					"end": "hitwithaxe:blocks/debarked/spectre_top"
 				}
+			},
+			"amaranth": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/amaranth",
+					"end": "hitwithaxe:blocks/debarked/amaranth_top"
+				}
+			},
+			"eucalyptus": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/eucalyptus",
+					"end": "hitwithaxe:blocks/debarked/eucalyptus_top"
+				}
+			},
+			"hopseed": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/hopseed",
+					"end": "hitwithaxe:blocks/debarked/hopseed_top"
+				}
+			},
+			"ironwood": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/ironwood",
+					"end": "hitwithaxe:blocks/debarked/ironwood_top"
+				}
+			},
+			"maple": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/maple",
+					"end": "hitwithaxe:blocks/debarked/maple_top"
+				}
+			},
+			"olive": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/olive",
+					"end": "hitwithaxe:blocks/debarked/olive_top"
+				}
+			},
+			"sakura": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/sakura",
+					"end": "hitwithaxe:blocks/debarked/sakura_top"
+				}
+			},
+			"silverbell": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/silverbell",
+					"end": "hitwithaxe:blocks/debarked/silverbell_top"
+				}
+			},
+			"tiger": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/tiger",
+					"end": "hitwithaxe:blocks/debarked/tiger_top"
+				}
+			},
+			"willow": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/willow",
+					"end": "hitwithaxe:blocks/debarked/willow_top"
+				}
 			}
 		},
 		"axis": {

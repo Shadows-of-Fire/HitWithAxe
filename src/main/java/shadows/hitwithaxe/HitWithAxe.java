@@ -39,13 +39,16 @@ public class HitWithAxe {
 
 	public static final String MODID = "hitwithaxe";
 	public static final String MODNAME = "Hit With Axe";
-	public static final String VERSION = "1.1.0";
+	public static final String VERSION = "1.2.0";
 
 	public static final Logger LOG = LogManager.getLogger(MODID);
 	public static final List<TransformRecipe> RECIPES = new ArrayList<>();
 	public static final RegistryInformationV2 INFO = new RegistryInformationV2(MODID, CreativeTabs.MATERIALS);
 	public static final Function<EnumBarkType, BlockDebarkedLog> DEFAULT_FUNC = (e) -> new BlockDebarkedLog(e);
+	public static final String PLANTS = "plants2";
 	public static final String BETWEENLANDS = "thebetweenlands";
+	public static final String RUSTIC = "rustic";
+	public static final String NATURA = "natura";
 
 	@SidedProxy(serverSide = "shadows.hitwithaxe.proxy.Proxy", clientSide = "shadows.hitwithaxe.proxy.ClientProxy")
 	public static Proxy proxy;
@@ -82,7 +85,7 @@ public class HitWithAxe {
 		INFO.getItemList().register(e.getRegistry());
 		OreDictionary.registerOre("barkWood", new ItemStack(BARK, 1, OreDictionary.WILDCARD_VALUE));
 		for (EnumBarkType ebt : EnumBarkType.values())
-			OreDictionary.registerOre("logWood", DEBARKED_LOGS.getBlock(ebt));
+			if(Loader.isModLoaded(ebt.getReqMod())) OreDictionary.registerOre("logWood", DEBARKED_LOGS.getBlock(ebt));
 	}
 
 	@SubscribeEvent
