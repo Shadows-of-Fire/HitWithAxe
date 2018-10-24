@@ -115,6 +115,56 @@
 				"textures": {
 					"layer0": "hitwithaxe:items/bark/weedwood"
 				}
+			},
+			"amaranth": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/amaranth"
+				}
+			},
+			"eucalyptus": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/eucalyptus"
+				}
+			},
+			"hopseed": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/hopseed"
+				}
+			},
+			"ironwood": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/ironwood"
+				}
+			},
+			"maple": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/maple"
+				}
+			},
+			"olive": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/olive"
+				}
+			},
+			"sakura": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/sakura"
+				}
+			},
+			"silverbell": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/silverbell"
+				}
+			},
+			"tiger": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/tiger"
+				}
+			},
+			"willow": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/willow"
+				}
 			}
 		}
 	}
