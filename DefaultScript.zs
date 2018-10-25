@@ -129,6 +129,66 @@ Chopping.addRecipe("randomthings:spectrelog", 0, "hitwithaxe:debarked_spectre", 
 Chopping.addRecipe("randomthings:spectrelog", 2, "hitwithaxe:debarked_spectre", 2, <hitwithaxe:bark:19>); //Z Axis
 Chopping.addRecipe("hitwithaxe:debarked_spectre", 32767, <randomthings:spectreplank>);
 
+//Maple
+Chopping.addRecipe("natura:overworld_logs", 0, "hitwithaxe:debarked_maple", 1, <hitwithaxe:bark:26>); //Y Axis
+Chopping.addRecipe("natura:overworld_logs", 4, "hitwithaxe:debarked_maple", 0, <hitwithaxe:bark:26>); //X Axis
+Chopping.addRecipe("natura:overworld_logs", 8, "hitwithaxe:debarked_maple", 2, <hitwithaxe:bark:26>); //Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_maple", 32767, <natura:overworld_planks>);
+
+//Silverbell
+Chopping.addRecipe("natura:overworld_logs", 1, "hitwithaxe:debarked_silverbell", 1, <hitwithaxe:bark:29>); //Y Axis
+Chopping.addRecipe("natura:overworld_logs", 5, "hitwithaxe:debarked_silverbell", 0, <hitwithaxe:bark:29>); //X Axis
+Chopping.addRecipe("natura:overworld_logs", 9, "hitwithaxe:debarked_silverbell", 2, <hitwithaxe:bark:29>); //Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_silverbell", 32767, <natura:overworld_planks:1>);
+
+//Amaranth
+Chopping.addRecipe("natura:overworld_logs", 2, "hitwithaxe:debarked_amaranth", 1, <hitwithaxe:bark:22>); //Y Axis
+Chopping.addRecipe("natura:overworld_logs", 6, "hitwithaxe:debarked_amaranth", 0, <hitwithaxe:bark:22>); //X Axis
+Chopping.addRecipe("natura:overworld_logs", 10, "hitwithaxe:debarked_amaranth", 2, <hitwithaxe:bark:22>); //Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_amaranth", 32767, <natura:overworld_planks:2>);
+
+//Tiger
+Chopping.addRecipe("natura:overworld_logs", 3, "hitwithaxe:debarked_tiger", 1, <hitwithaxe:bark:30>); //Y Axis
+Chopping.addRecipe("natura:overworld_logs", 7, "hitwithaxe:debarked_tiger", 0, <hitwithaxe:bark:30>); //X Axis
+Chopping.addRecipe("natura:overworld_logs", 11, "hitwithaxe:debarked_tiger", 2, <hitwithaxe:bark:30>); //Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_tiger", 32767, <natura:overworld_planks:3>);
+
+//Willow
+Chopping.addRecipe("natura:overworld_logs2", 0, "hitwithaxe:debarked_willow", 1, <hitwithaxe:bark:31>); //Y Axis
+Chopping.addRecipe("natura:overworld_logs2", 4, "hitwithaxe:debarked_willow", 0, <hitwithaxe:bark:31>); //X Axis
+Chopping.addRecipe("natura:overworld_logs2", 8, "hitwithaxe:debarked_willow", 2, <hitwithaxe:bark:31>); //Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_willow", 32767, <natura:overworld_planks:4>);
+
+//Eucalyptus
+Chopping.addRecipe("natura:overworld_logs2", 1, "hitwithaxe:debarked_eucalyptus", 1, <hitwithaxe:bark:23>); //Y Axis
+Chopping.addRecipe("natura:overworld_logs2", 5, "hitwithaxe:debarked_eucalyptus", 0, <hitwithaxe:bark:23>); //X Axis
+Chopping.addRecipe("natura:overworld_logs2", 9, "hitwithaxe:debarked_eucalyptus", 2, <hitwithaxe:bark:23>); //Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_eucalyptus", 32767, <natura:overworld_planks:6>);
+
+//Hopseed
+Chopping.addRecipe("natura:overworld_logs2", 2, "hitwithaxe:debarked_hopseed", 1, <hitwithaxe:bark:24>); //Y Axis
+Chopping.addRecipe("natura:overworld_logs2", 6, "hitwithaxe:debarked_hopseed", 0, <hitwithaxe:bark:24>); //X Axis
+Chopping.addRecipe("natura:overworld_logs2", 10, "hitwithaxe:debarked_hopseed", 2, <hitwithaxe:bark:24>); //Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_hopseed", 32767, <natura:overworld_planks:5>);
+
+//Sakura
+Chopping.addRecipe("natura:overworld_logs2", 3, "hitwithaxe:debarked_sakura", 1, <hitwithaxe:bark:28>); //Y Axis
+Chopping.addRecipe("natura:overworld_logs2", 7, "hitwithaxe:debarked_sakura", 0, <hitwithaxe:bark:28>); //X Axis
+Chopping.addRecipe("natura:overworld_logs2", 11, "hitwithaxe:debarked_sakura", 2, <hitwithaxe:bark:28>); //Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_sakura", 32767, <natura:overworld_planks:7>);
+
+// Olive
+Chopping.addRecipe("rustic:log", 0, "hitwithaxe:debarked_olive", 1, <hitwithaxe:bark:27>); //Y Axis
+Chopping.addRecipe("rustic:log", 4, "hitwithaxe:debarked_olive", 0, <hitwithaxe:bark:27>); //X Axis
+Chopping.addRecipe("rustic:log", 8, "hitwithaxe:debarked_olive", 2, <hitwithaxe:bark:27>); //Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_olive", 32767, <rustic:planks>);
+
+// Ironwood
+Chopping.addRecipe("rustic:log", 1, "hitwithaxe:debarked_ironwood", 1, <hitwithaxe:bark:25>); //Y Axis
+Chopping.addRecipe("rustic:log", 5, "hitwithaxe:debarked_ironwood", 0, <hitwithaxe:bark:25>); //X Axis
+Chopping.addRecipe("rustic:log", 9, "hitwithaxe:debarked_ironwood", 2, <hitwithaxe:bark:25>); //Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_ironwood", 32767, <rustic:planks:1>);
+
 //Plank -> Stick
 Chopping.addRecipe("minecraft:planks", 32767, <minecraft:stick> * 2);
 Chopping.addRecipe("plants2:planks", 32767, <minecraft:stick> * 2);
@@ -141,3 +201,5 @@ Chopping.addRecipe("thebetweenlands:rubber_tree_planks", 32767, <minecraft:stick
 Chopping.addRecipe("thebetweenlands:giant_root_planks", 32767, <minecraft:stick> * 2);
 Chopping.addRecipe("traverse:fir_planks", 32767, <minecraft:stick> * 2);
 Chopping.addRecipe("randomthings:spectreplank", 32767, <minecraft:stick> * 2);
+Chopping.addRecipe("natura:overworld_planks", 32767, <minecraft:stick> * 2);
+Chopping.addRecipe("rustic:planks", 32767, <minecraft:stick> * 2);
