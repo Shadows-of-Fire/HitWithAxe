@@ -62,3 +62,5 @@ tile.hitwithaxe.debarked_sakura.name=Debarked Sakura Log
 tile.hitwithaxe.debarked_silverbell.name=Debarked Silverbell Log
 tile.hitwithaxe.debarked_tiger.name=Debarked Tiger Log
 tile.hitwithaxe.debarked_willow.name=Debarked Willow Log
+jei.hitwithaxe.harvestlevel=Harvest Level %s
+jei.hitwithaxe.chopping.name=Chopping

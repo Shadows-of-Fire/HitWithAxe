@@ -1,13 +1,23 @@
 package shadows.hitwithaxe.crt;
 
+import com.google.common.base.Predicate;
+
 import crafttweaker.annotations.ZenRegister;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.minecraft.CraftTweakerMC;
 import crafttweaker.mc1120.item.MCItemStack;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.NonNullList;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.RayTraceResult;
+import net.minecraft.util.math.RayTraceResult.Type;
+import net.minecraft.util.math.Vec3d;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.oredict.OreDictionary;
 import shadows.hitwithaxe.DefaultTransformCall;
@@ -33,8 +43,18 @@ public class Chopping {
 	 */
 	public static void addRecipe(IBlockState inState, boolean matchBlock, IBlockState outState, int harvestLevel, ItemStack stack) {
 		ITransformCall call = new DefaultTransformCall(stack, outState);
-		if (matchBlock) HitWithAxe.RECIPES.add(new TransformRecipe(s -> s.getBlock() == inState.getBlock(), call, harvestLevel));
-		else HitWithAxe.RECIPES.add(new TransformRecipe(s -> s == inState, call, harvestLevel));
+		Predicate<IBlockState> ing = s -> s == inState;
+		NonNullList<ItemStack> inputs = NonNullList.create();
+		if (matchBlock) {
+			ing = s -> s.getBlock() == inState.getBlock();
+			Item.getItemFromBlock(inState.getBlock()).getSubItems(CreativeTabs.SEARCH, inputs);
+		} else {
+			inputs.add(fromState(inState));
+		}
+		NonNullList<ItemStack> outputs = NonNullList.withSize(2, ItemStack.EMPTY);
+		outputs.set(0, fromState(outState));
+		outputs.set(1, stack);
+		HitWithAxe.RECIPES.add(new TransformRecipe(ing, call, harvestLevel, inputs, outputs));
 	}
 
 	/**
@@ -91,6 +111,28 @@ public class Chopping {
 	@ZenMethod
 	public static void addRecipe(IItemStack input, IItemStack output, @Optional IItemStack result) {
 		addRecipe(input, output, 0, result);
+	}
+
+	@ZenMethod
+	public static void addRecipe(crafttweaker.api.block.IBlockState input, crafttweaker.api.block.IBlockState output, @Optional int harvestLevel, @Optional IItemStack result) {
+		addRecipe(CraftTweakerMC.getBlockState(input), false, CraftTweakerMC.getBlockState(output), harvestLevel, CraftTweakerMC.getItemStack(result));
+	}
+
+	private static ItemStack fromState(IBlockState state) {
+		ItemStack stack;
+		try {
+			stack = state.getBlock().getPickBlock(state, new RayTraceResult(Type.BLOCK, new Vec3d(0.5, 0.5, 0.5), EnumFacing.DOWN, BlockPos.ORIGIN), null, BlockPos.ORIGIN, null);
+		} catch (Exception e) {
+			e.printStackTrace();
+			stack = ItemStack.EMPTY;
+		}
+		if (stack.isEmpty()) try {
+			stack = new ItemStack(Item.getItemFromBlock(state.getBlock()), 1, state.getBlock().getMetaFromState(state));
+		} catch (Exception e) {
+			e.printStackTrace();
+			stack = ItemStack.EMPTY;
+		}
+		return stack;
 	}
 
 }
