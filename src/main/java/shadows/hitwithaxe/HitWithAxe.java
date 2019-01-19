@@ -85,7 +85,7 @@ public class HitWithAxe {
 		INFO.getItemList().register(e.getRegistry());
 		OreDictionary.registerOre("barkWood", new ItemStack(BARK, 1, OreDictionary.WILDCARD_VALUE));
 		for (EnumBarkType ebt : EnumBarkType.values())
-			if(Loader.isModLoaded(ebt.getReqMod())) OreDictionary.registerOre("logWood", DEBARKED_LOGS.getBlock(ebt));
+			if (Loader.isModLoaded(ebt.getReqMod())) OreDictionary.registerOre("logWood", DEBARKED_LOGS.getBlock(ebt));
 	}
 
 	@SubscribeEvent
