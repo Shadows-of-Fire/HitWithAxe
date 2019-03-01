@@ -41,7 +41,8 @@ public enum EnumBarkType implements IPropertyEnum {
 	SAKURA(HitWithAxe.NATURA),
 	SILVERBELL(HitWithAxe.NATURA),
 	TIGER(HitWithAxe.NATURA),
-	WILLOW(HitWithAxe.NATURA);
+	WILLOW(HitWithAxe.NATURA),
+	ANCIENT(HitWithAxe.NA);
 
 	final Function<EnumBarkType, BlockDebarkedLog> block;
 	final String modid;

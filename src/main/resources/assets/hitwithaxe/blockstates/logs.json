@@ -11,6 +11,12 @@
 					"end": "hitwithaxe:blocks/debarked/acacia_top"
 				}
 			},
+			"ancient": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/ancient",
+					"end": "hitwithaxe:blocks/debarked/ancient_top"
+				}
+			},
 			"birch": {
 				"textures": {
 					"side": "hitwithaxe:blocks/debarked/birch",

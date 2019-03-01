@@ -24,13 +24,11 @@ import net.minecraftforge.event.entity.player.PlayerInteractEvent.RightClickBloc
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.oredict.OreDictionary;
 import shadows.hitwithaxe.block.BlockDebarkedLog;
 import shadows.hitwithaxe.compat.CompatBetweenlands;
-import shadows.hitwithaxe.proxy.Proxy;
 import shadows.placebo.registry.RegistryInformationV2;
 import shadows.placebo.util.EnumBlockFactory;
 
@@ -39,8 +37,7 @@ public class HitWithAxe {
 
 	public static final String MODID = "hitwithaxe";
 	public static final String MODNAME = "Hit With Axe";
-	public static final String VERSION = "1.3.0";
-
+	public static final String VERSION = "1.4.0";
 	public static final Logger LOG = LogManager.getLogger(MODID);
 	public static final List<TransformRecipe> RECIPES = new ArrayList<>();
 	public static final RegistryInformationV2 INFO = new RegistryInformationV2(MODID, CreativeTabs.MATERIALS);
@@ -49,12 +46,8 @@ public class HitWithAxe {
 	public static final String BETWEENLANDS = "thebetweenlands";
 	public static final String RUSTIC = "rustic";
 	public static final String NATURA = "natura";
-
-	@SidedProxy(serverSide = "shadows.hitwithaxe.proxy.Proxy", clientSide = "shadows.hitwithaxe.proxy.ClientProxy")
-	public static Proxy proxy;
-
+	public static final String NA = "naturesaura";
 	public static final ItemBark BARK = new ItemBark("bark", EnumBarkType.values(), INFO);
-
 	public static final EnumBlockFactory<EnumBarkType, BlockDebarkedLog> DEBARKED_LOGS = new EnumBlockFactory<>(e -> Loader.isModLoaded(e.getReqMod()) ? e.createBlock() : null, EnumBarkType.values());
 
 	public static int hungerCost = 1;
@@ -63,7 +56,6 @@ public class HitWithAxe {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent e) {
 		MinecraftForge.EVENT_BUS.register(this);
-		MinecraftForge.EVENT_BUS.register(proxy);
 		Configuration cfg = new Configuration(e.getSuggestedConfigurationFile());
 		hungerCost = cfg.getInt("Food Cost", "general", hungerCost, 0, 20, "How much hunger is used per swing.  This will consume saturation when possible.  1 = half shank.");
 		cooldown = cfg.getInt("Swing Cooldown", "general", cooldown, 0, Integer.MAX_VALUE, "The cooldown after using an axe, in ticks");
