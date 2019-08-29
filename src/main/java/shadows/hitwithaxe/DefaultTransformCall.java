@@ -32,7 +32,7 @@ public class DefaultTransformCall implements ITransformCall {
 			HitWithAxe.consumeFood(player);
 		}
 		player.swingArm(hand);
-		player.getCooldownTracker().setCooldown(held.getItem(), 10);
+		player.getCooldownTracker().setCooldown(held.getItem(), HitWithAxe.cooldown);
 	};
 
 }
