@@ -32,12 +32,12 @@ import shadows.hitwithaxe.compat.CompatBetweenlands;
 import shadows.placebo.registry.RegistryInformationV2;
 import shadows.placebo.util.EnumBlockFactory;
 
-@Mod(modid = HitWithAxe.MODID, name = HitWithAxe.MODNAME, version = HitWithAxe.VERSION, dependencies = "required-after:placebo@[1.4.1,);required-after:crafttweaker;after:thebetweenlands;after:plants2;after:thaumcraft;after:randomthings;after:traverse;after:integrateddynamics")
+@Mod(modid = HitWithAxe.MODID, name = HitWithAxe.MODNAME, version = HitWithAxe.VERSION, dependencies = "required-after:placebo@[1.4.1,);required-after:crafttweaker;after:thebetweenlands;after:plants2;after:thaumcraft;after:randomthings;after:traverse;after:integrateddynamics;after:rustic;after:natura;after:naturesaura;after:biomesoplenty")
 public class HitWithAxe {
 
 	public static final String MODID = "hitwithaxe";
 	public static final String MODNAME = "Hit With Axe";
-	public static final String VERSION = "1.4.0";
+	public static final String VERSION = "1.5.0";
 	public static final Logger LOG = LogManager.getLogger(MODID);
 	public static final List<TransformRecipe> RECIPES = new ArrayList<>();
 	public static final RegistryInformationV2 INFO = new RegistryInformationV2(MODID, CreativeTabs.MATERIALS);
@@ -47,6 +47,7 @@ public class HitWithAxe {
 	public static final String RUSTIC = "rustic";
 	public static final String NATURA = "natura";
 	public static final String NA = "naturesaura";
+	public static final String BOP = "biomesoplenty";
 	public static final ItemBark BARK = new ItemBark("bark", EnumBarkType.values(), INFO);
 	public static final EnumBlockFactory<EnumBarkType, BlockDebarkedLog> DEBARKED_LOGS = new EnumBlockFactory<>(e -> Loader.isModLoaded(e.getReqMod()) ? e.createBlock() : null, EnumBarkType.values());
 

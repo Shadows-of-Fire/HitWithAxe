@@ -196,6 +196,108 @@
 					"side": "hitwithaxe:blocks/debarked/willow",
 					"end": "hitwithaxe:blocks/debarked/willow_top"
 				}
+			},
+			"cherry": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/cherry",
+					"end": "hitwithaxe:blocks/debarked/cherry_top"
+				}
+			},
+			"dead": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/dead",
+					"end": "hitwithaxe:blocks/debarked/dead_top"
+				}
+			},
+			"ebony": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/ebony",
+					"end": "hitwithaxe:blocks/debarked/ebony_top"
+				}
+			},
+			"ethereal": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/ethereal",
+					"end": "hitwithaxe:blocks/debarked/ethereal_top"
+				}
+			},
+			"eucalyptus_bop": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/eucalyptus_bop",
+					"end": "hitwithaxe:blocks/debarked/eucalyptus_bop_top"
+				}
+			},
+			"fir_bop": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/fir_bop",
+					"end": "hitwithaxe:blocks/debarked/fir_bop_top"
+				}
+			},
+			"hellbark": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/hellbark",
+					"end": "hitwithaxe:blocks/debarked/hellbark_top"
+				}
+			},
+			"jacaranda": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/jacaranda",
+					"end": "hitwithaxe:blocks/debarked/jacaranda_top"
+				}
+			},
+			"magic": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/magic",
+					"end": "hitwithaxe:blocks/debarked/magic_top"
+				}
+			},
+			"mahogany": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/mahogany",
+					"end": "hitwithaxe:blocks/debarked/mahogany_top"
+				}
+			},
+			"mangrove": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/mangrove",
+					"end": "hitwithaxe:blocks/debarked/mangrove_top"
+				}
+			},
+			"palm": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/palm",
+					"end": "hitwithaxe:blocks/debarked/palm_top"
+				}
+			},
+			"pine": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/pine",
+					"end": "hitwithaxe:blocks/debarked/pine_top"
+				}
+			},
+			"redwood": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/redwood",
+					"end": "hitwithaxe:blocks/debarked/redwood_top"
+				}
+			},
+			"sacred_oak": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/sacred_oak",
+					"end": "hitwithaxe:blocks/debarked/sacred_oak_top"
+				}
+			},
+			"umbran": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/umbran",
+					"end": "hitwithaxe:blocks/debarked/umbran_top"
+				}
+			},
+			"willow_bop": {
+				"textures": {
+					"side": "hitwithaxe:blocks/debarked/willow_bop",
+					"end": "hitwithaxe:blocks/debarked/willow_bop_top"
+				}
 			}
 		},
 		"axis": {
