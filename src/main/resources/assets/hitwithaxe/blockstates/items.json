@@ -170,7 +170,92 @@
 				"textures": {
 					"layer0": "hitwithaxe:items/bark/ancient"
 				}
-			}
+			},
+			"cherry": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/cherry"
+				}
+			},
+			"dead": {
+				"textures": {
+					"layer0": "hitwithaxe:items/bark/dead"
+				}
+			},
+                        "ebony": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/ebony"
+                                }
+                        },
+                        "ethereal": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/ethereal"
+                                }
+                        },
+                        "eucalyptus_bop": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/eucalyptus_bop"
+                                }
+                        },
+                        "fir_bop": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/fir_bop"
+                                }
+                        },
+                        "hellbark": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/hellbark"
+                                }
+                        },
+                        "jacaranda": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/jacaranda"
+                                }
+                        },
+                        "magic": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/magic"
+                                }
+                        },
+                        "mahogany": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/mahogany"
+                                }
+                        },
+                        "mangrove": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/mangrove"
+                                }
+                        },
+                        "palm": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/palm"
+                                }
+                        },
+                        "pine": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/pine"
+                                }
+                        },
+                        "redwood": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/redwood"
+                                }
+                        },
+                        "sacred_oak": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/sacred_oak"
+                                }
+                        },
+                        "umbran": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/umbran"
+                                }
+                        },
+                        "willow_bop": {
+                                "textures": {
+                                        "layer0": "hitwithaxe:items/bark/willow_bop"
+                                }
+                        }
 		}
 	}
 }
