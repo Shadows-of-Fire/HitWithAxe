@@ -189,6 +189,81 @@ Chopping.addRecipe("rustic:log", 5, "hitwithaxe:debarked_ironwood", 0, <hitwitha
 Chopping.addRecipe("rustic:log", 9, "hitwithaxe:debarked_ironwood", 2, <hitwithaxe:bark:25>); //Z Axis
 Chopping.addRecipe("hitwithaxe:debarked_ironwood", 32767, <rustic:planks:1>);
 
+// Ancient
+Chopping.addRecipe("naturesaura:ancient_log", 1, "hitwithaxe:debarked_ancient", 0, <hitwithaxe:bark:32>); //X Axis
+Chopping.addRecipe("naturesaura:ancient_log", 2, "hitwithaxe:debarked_ancient", 1, <hitwithaxe:bark:32>); //Y Axis
+Chopping.addRecipe("naturesaura:ancient_log", 3, "hitwithaxe:debarked_ancient", 2, <hitwithaxe:bark:32>); //Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_ancient", 32767, <naturesaura:ancient_planks>);
+
+// BOP
+Chopping.addRecipe("biomesoplenty:log_0", 4, "hitwithaxe:debarked_sacred_oak", 0, <hitwithaxe:bark:47>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_0", 8, "hitwithaxe:debarked_sacred_oak", 1, <hitwithaxe:bark:47>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_0", 12, "hitwithaxe:debarked_sacred_oak", 2, <hitwithaxe:bark:47>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_sacred_oak", 32767, <biomesoplenty:planks_0:0>);
+Chopping.addRecipe("biomesoplenty:log_0", 5, "hitwithaxe:debarked_cherry", 0, <hitwithaxe:bark:33>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_0", 9, "hitwithaxe:debarked_cherry", 1, <hitwithaxe:bark:33>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_0", 13, "hitwithaxe:debarked_cherry", 2, <hitwithaxe:bark:33>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_cherry", 32767, <biomesoplenty:planks_0:1>);
+Chopping.addRecipe("biomesoplenty:log_0", 6, "hitwithaxe:debarked_umbran", 0, <hitwithaxe:bark:48>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_0", 10, "hitwithaxe:debarked_umbran", 1, <hitwithaxe:bark:48>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_0", 14, "hitwithaxe:debarked_umbran", 2, <hitwithaxe:bark:48>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_umbran", 32767, <biomesoplenty:planks_0:2>);
+Chopping.addRecipe("biomesoplenty:log_0", 7, "hitwithaxe:debarked_fir_bop", 0, <hitwithaxe:bark:38>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_0", 11, "hitwithaxe:debarked_fir_bop", 1, <hitwithaxe:bark:38>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_0", 15, "hitwithaxe:debarked_fir_bop", 2, <hitwithaxe:bark:38>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_fir_bop", 32767, <biomesoplenty:planks_0:3>);
+Chopping.addRecipe("biomesoplenty:log_1", 4, "hitwithaxe:debarked_ethereal", 0, <hitwithaxe:bark:36>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_1", 8, "hitwithaxe:debarked_ethereal", 1, <hitwithaxe:bark:36>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_1", 12, "hitwithaxe:debarked_ethereal", 2, <hitwithaxe:bark:36>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_ethereal", 32767, <biomesoplenty:planks_0:4>);
+Chopping.addRecipe("biomesoplenty:log_1", 5, "hitwithaxe:debarked_magic", 0, <hitwithaxe:bark:41>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_1", 9, "hitwithaxe:debarked_magic", 1, <hitwithaxe:bark:41>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_1", 13, "hitwithaxe:debarked_magic", 2, <hitwithaxe:bark:41>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_magic", 32767, <biomesoplenty:planks_0:5>);
+Chopping.addRecipe("biomesoplenty:log_1", 6, "hitwithaxe:debarked_mangrove", 0, <hitwithaxe:bark:43>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_1", 10, "hitwithaxe:debarked_mangrove", 1, <hitwithaxe:bark:43>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_1", 14, "hitwithaxe:debarked_mangrove", 2, <hitwithaxe:bark:43>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_mangrove", 32767, <biomesoplenty:planks_0:6>);
+Chopping.addRecipe("biomesoplenty:log_1", 7, "hitwithaxe:debarked_palm", 0, <hitwithaxe:bark:44>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_1", 11, "hitwithaxe:debarked_palm", 1, <hitwithaxe:bark:44>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_1", 15, "hitwithaxe:debarked_palm", 2, <hitwithaxe:bark:44>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_palm", 32767, <biomesoplenty:planks_0:7>);
+Chopping.addRecipe("biomesoplenty:log_2", 4, "hitwithaxe:debarked_redwood", 0, <hitwithaxe:bark:46>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_2", 8, "hitwithaxe:debarked_redwood", 1, <hitwithaxe:bark:46>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_2", 12, "hitwithaxe:debarked_redwood", 2, <hitwithaxe:bark:46>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_redwood", 32767, <biomesoplenty:planks_0:8>);
+Chopping.addRecipe("biomesoplenty:log_2", 5, "hitwithaxe:debarked_willow_bop", 0, <hitwithaxe:bark:49>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_2", 9, "hitwithaxe:debarked_willow_bop", 1, <hitwithaxe:bark:49>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_2", 13, "hitwithaxe:debarked_willow_bop", 2, <hitwithaxe:bark:49>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_willow_bop", 32767, <biomesoplenty:planks_0:9>);
+Chopping.addRecipe("biomesoplenty:log_2", 6, "hitwithaxe:debarked_pine", 0, <hitwithaxe:bark:45>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_2", 10, "hitwithaxe:debarked_pine", 1, <hitwithaxe:bark:45>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_2", 14, "hitwithaxe:debarked_pine", 2, <hitwithaxe:bark:45>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_pine", 32767, <biomesoplenty:planks_0:10>);
+Chopping.addRecipe("biomesoplenty:log_2", 7, "hitwithaxe:debarked_hellbark", 0, <hitwithaxe:bark:39>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_2", 11, "hitwithaxe:debarked_hellbark", 1, <hitwithaxe:bark:39>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_2", 15, "hitwithaxe:debarked_hellbark", 2, <hitwithaxe:bark:39>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_hellbark", 32767, <biomesoplenty:planks_0:11>);
+Chopping.addRecipe("biomesoplenty:log_3", 4, "hitwithaxe:debarked_jacaranda", 0, <hitwithaxe:bark:40>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_3", 8, "hitwithaxe:debarked_jacaranda", 1, <hitwithaxe:bark:40>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_3", 12, "hitwithaxe:debarked_jacaranda", 2, <hitwithaxe:bark:40>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_jacaranda", 32767, <biomesoplenty:planks_0:12>);
+Chopping.addRecipe("biomesoplenty:log_3", 5, "hitwithaxe:debarked_mahogany", 0, <hitwithaxe:bark:42>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_3", 9, "hitwithaxe:debarked_mahogany", 1, <hitwithaxe:bark:42>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_3", 13, "hitwithaxe:debarked_mahogany", 2, <hitwithaxe:bark:42>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_mahogany", 32767, <biomesoplenty:planks_0:13>);
+Chopping.addRecipe("biomesoplenty:log_3", 6, "hitwithaxe:debarked_ebony", 0, <hitwithaxe:bark:35>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_3", 10, "hitwithaxe:debarked_ebony", 1, <hitwithaxe:bark:35>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_3", 14, "hitwithaxe:debarked_ebony", 2, <hitwithaxe:bark:35>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_ebony", 32767, <biomesoplenty:planks_0:14>);
+Chopping.addRecipe("biomesoplenty:log_3", 7, "hitwithaxe:debarked_eucalyptus_bop", 0, <hitwithaxe:bark:37>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_3", 11, "hitwithaxe:debarked_eucalyptus_bop", 1, <hitwithaxe:bark:37>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_3", 15, "hitwithaxe:debarked_eucalyptus_bop", 2, <hitwithaxe:bark:37>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_eucalyptus_bop", 32767, <biomesoplenty:planks_0:15>);
+Chopping.addRecipe("biomesoplenty:log_4", 5, "hitwithaxe:debarked_dead", 0, <hitwithaxe:bark:34>); // X Axis
+Chopping.addRecipe("biomesoplenty:log_4", 9, "hitwithaxe:debarked_dead", 1, <hitwithaxe:bark:34>); // Y Axis
+Chopping.addRecipe("biomesoplenty:log_4", 13, "hitwithaxe:debarked_dead", 2, <hitwithaxe:bark:34>); // Z Axis
+Chopping.addRecipe("hitwithaxe:debarked_dead", 32767, <minecraft:stick> * 2);
 //Plank -> Stick
 Chopping.addRecipe("minecraft:planks", 32767, <minecraft:stick> * 2);
 Chopping.addRecipe("plants2:planks", 32767, <minecraft:stick> * 2);
@@ -203,3 +278,5 @@ Chopping.addRecipe("traverse:fir_planks", 32767, <minecraft:stick> * 2);
 Chopping.addRecipe("randomthings:spectreplank", 32767, <minecraft:stick> * 2);
 Chopping.addRecipe("natura:overworld_planks", 32767, <minecraft:stick> * 2);
 Chopping.addRecipe("rustic:planks", 32767, <minecraft:stick> * 2);
+Chopping.addRecipe("naturesaura:ancient_planks", 32767, <minecraft:stick> * 2);
+Chopping.addRecipe("biomesoplenty:planks_0", 32767, <minecraft:stick> * 2);
